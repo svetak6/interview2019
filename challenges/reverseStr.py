@@ -1,7 +1,4 @@
-# reverse a
-# string with special characters
-# Returns true if x is an alphanumeric
-# character, false otherwise
+# reverse a string
 
 
 
@@ -34,6 +31,6 @@ def reverseStr(string):
 
 # Driver code
 string = 'dhg678i& kjjk92 $'
-print "Input string: " + string
+print ("Input string: " + string)
 string = reverseStr(string)
-print "Output string: " + string
+print ("Output string: " + string)
