@@ -1,5 +1,6 @@
 # select anagrams in list of words and print as list of lists
-
+# input: ['eat' ,'tea' ,'ate', 'word' ,'rdow', 'rdwo', 'fgd hh', ' hhfgd']
+# output: [['eat', 'tea', 'ate'], ['word', 'rdow', 'rdwo'], ['fgd hh', ' hhfgd']]
 
 def detectMatchedWords(lSource):
     dix = {}
